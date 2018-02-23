@@ -1,0 +1,15 @@
+{
+  "name": "node-native-addons-example",
+  "version": "1.0.0",
+  "dependencies": {
+    "nan": "^2.6.1",
+    "node-gyp": "^3.6.0",
+    "pusher-client": "^1.1.0",
+    "request": "^2.83.0"
+  },
+  "scripts": {
+    "compile": "node-gyp rebuild",
+    "start": "node main.js"
+  },
+  "gypfile": true
+}
